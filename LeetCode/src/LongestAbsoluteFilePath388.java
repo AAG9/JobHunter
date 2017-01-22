@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Created by chiko on 1/11/2017.
  */
+
 public class LongestAbsoluteFilePath388 {
     public static class Node{
         String name;

@@ -90,6 +90,7 @@ public class ShantanuAmazon {
 
         int count = 0;
         CPoint[] cPoints = new CPoint[k];
+
         for(Map.Entry<Double, CPoint> entry: tMap.entrySet()){
             if(count < k){
                 cPoints[count++] = entry.getValue();

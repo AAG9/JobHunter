@@ -353,6 +353,7 @@ public class Tree {
     public static void main(String[] args) {
         Tree tree = new Tree();
         tree.createBT();
+        tree.inOrderIterative();
         /*tree.preOrder(tree.root);
         System.out.println();
         tree.inOrder(tree.root);
