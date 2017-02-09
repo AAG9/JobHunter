@@ -1,3 +1,4 @@
+import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.util.Scanner;
@@ -19,7 +20,7 @@ public class LongestAbsoluteFilePath388 {
     }
 
     public static int solution(String s){
-        BufferedReader in = new BufferedReader(new ByteArrayInputStream(s.getBytes()));
+        Scanner in = new Scanner(s);
         Node dummyNode = new Node("", null,0);
         int maxLength = 0;
         Node previousNode = dummyNode;
